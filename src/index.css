@@ -5,9 +5,100 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* .div{
+  width: 100px;
+  height: 100px;
+  background-color: palevioletred;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+} */
+.navbar{
+  flex-grow: 1;
+  background-color: rgb(255, 199, 199);
+  height: 60px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+}
+.logo{
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 20px;
+  flex:1;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.list li{
+  list-style-type: none;
+  margin-right: 20px;
+}
+.list li a{
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+.list li a:hover{
+  font-size: 18px;
+  font-weight: 400;
+  color: azure;
+  text-decoration: none;
+}
+.subdiv-list{
+  background-color: rgb(255, 199, 199);
+  position: fixed;
+  right: 0;
+  margin-right: 100px;
+  margin-top: 190px;
+  border-end-end-radius: 5px;
+  border-end-start-radius:5px ;
+  display: flex;
+}
+.sub-list li{
+  list-style-type: none;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  margin-right: 20px;
+}
+.sub-list li a{
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+.sub-list li a:hover{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 16px;
+}
+.searchdiv{
+  flex:1
+}
+.search{
+  width: 350px;
+  height: 39px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid grey;
+}
+.search:hover{ 
+  background-color: rgb(252, 242, 242);
+}
+.search:focus{
+  border: 1px solid grey;
+  text-decoration: none;
+  
+  
 }
