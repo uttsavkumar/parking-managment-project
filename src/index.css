@@ -12,14 +12,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* .div{
+.div{
   width: 100px;
   height: 100px;
   background-color: palevioletred;
   top: 50%;
   position: absolute;
   left: 50%;
-} */
+}
 .navbar{
   flex-grow: 1;
   background-color: rgb(255, 199, 199);
@@ -99,6 +99,4 @@ code {
 .search:focus{
   border: 1px solid grey;
   text-decoration: none;
-  
-  
 }

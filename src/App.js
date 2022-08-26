@@ -1,11 +1,12 @@
 import React from 'react'
-import Navbar from './Projects/Navbar'
-import P1 from './Projects/P1'
+import Components from './ParkingApp/Components'
+// import Components from './Todo/Components'
 
 const App = () => {
   return (
     <div>
-     <Navbar/>
+      {/* <Components/> */}
+      <Components/>
     </div>
   )
 }
